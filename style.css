@@ -30,20 +30,51 @@ section {
     width: 495px;
     float:left;
     margin: 10px;
+    height: 320px;
 }
 
+div.parent {
+    background: #777;
+    height: 200px;
+    margin: 5px;
+
+}
 header.art {
     color: #ebebeb;
     background: #777;
-    width: 495px;
+    width: 460px;
     margin: 0px;
-    
+}
+
+div.head {
+    background: #ebebeb;
+    margin: 0px 10px 5px 10px;
+    width: 460 px;
+}
+
+div.par {
+    margin-top: 5px;
 }
 
 h1, h2, h3 {
     color: #777;
+   
+    display: inline-block;
+    height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 20px;
+    
+}
+
+p {
+    color: #777;
     background: #ebebeb;
     margin: 10px;
+    height:30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
 }
 
 aside {
@@ -51,8 +82,7 @@ aside {
     text-align: center;
     float: right;
     width: 400px;
-    length: 200px;
-    display: inline-block;
+    height: 320px;
     margin: 10px;
 }
 
