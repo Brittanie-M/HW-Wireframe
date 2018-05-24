@@ -9,34 +9,59 @@ font-size: 18px;
 header {
     background: #ebebeb;
     text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    height: 80px;
+    margin: 10px;
 }
 
 nav {
     background: #ebebeb;
     text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    margin: 10px;
+    height: 80px;
 }
 
 section {
     background: #ebebeb;
     text-align: center;
+    width: 495px;
+    float:left;
+    margin: 10px;
 }
 
 header.art {
     color: #ebebeb;
     background: #777;
+    width: 495px;
+    margin: 0px;
+    
 }
 
 h1, h2, h3 {
     color: #777;
     background: #ebebeb;
+    margin: 10px;
 }
 
 aside {
     background: #ebebeb;
     text-align: center;
+    float: right;
+    width: 400px;
+    length: 200px;
+    display: inline-block;
+    margin: 10px;
 }
 
 footer {
     background: #ebebeb;
     text-align: center;
+    vertical-align: middle;
+    line-height: 80px;
+    clear: both;
+    margin: 10px;
+    height:80px;
 }
